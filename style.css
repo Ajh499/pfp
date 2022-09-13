@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16pt;
+  background-image: url("none");
+  height: 100%; 
+  background: #000000;
+  color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnav a:hover {
+  background-color: #999999;
+  color: #000000;
+}
+
+.page {
+  padding: 10px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+a { color: inherit; }
+
+html {
+  overflow-x: initial !important;
+}
